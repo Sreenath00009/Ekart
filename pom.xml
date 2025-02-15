@@ -145,7 +145,7 @@
         </execution>
     </executions>
 </plugin>
-        </plugins>
+       
     <plugin>
               <groupId>org.owasp</groupId>
               <artifactId>dependency-check-maven</artifactId>
@@ -163,9 +163,9 @@
                  <format>html</format>
                  </formats>
               </configuration>
-   </plugin>
-
-    </build>
+       </plugin>
+    </plugins>
+</build>
 
          <distributionManagement>
     <repository>
